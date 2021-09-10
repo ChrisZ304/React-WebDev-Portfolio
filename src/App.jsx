@@ -6,6 +6,7 @@ import Contact from "./components/contact/Contact";
 import "./app.scss"
 
 function App() {
+  const [state, setstate] = useState(false)
   return (
     <div className="app">
       <Topbar/>
